@@ -88,3 +88,33 @@ section {
   border-bottom: 2px solid #afafaf;
   border-top: 2px solid #afafaf;
 }
+
+h2 {
+  font-family: "PT San Narrow", sans-serif;
+  margin: 0 0 1.5rem;
+}
+
+section ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+section ul li {
+  background-color: #ccc;
+  border: 2px solid #afafa1;
+  border-radius: 6px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "top"
+    "middle"
+    "bottom";
+  }
+
+  section div img {
+  width: 1em;
+  height: 1em;
+  margin-right: .5em;
+}
